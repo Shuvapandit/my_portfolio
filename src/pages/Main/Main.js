@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import img1 from '../../images/myimages/shuvpsp.jpg'
 import './Main.css'
 
@@ -15,11 +16,15 @@ function Main() {
 
 <nav class="navbar">
     <ul>
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#portfolio">portfolio</a></li>
-        <li><a href="#Blog">Blog</a></li>
-        <li><a href="#contact">contact</a></li>
+        
+    {/*     <Link className=' ' to=''>home</Link> */}
+    
+        <li><Link to='/home'> Home</Link></li>
+        <li><Link to='/about'> About</Link></li>
+        <li><Link to='/portfolio'> portfolio</Link></li>
+        <li><Link to='/contact'> contact</Link></li>
+       
+       
     </ul>
 </nav>
 
