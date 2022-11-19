@@ -7,12 +7,12 @@
 
 .home h3{
     font-size: 2.5rem;
-    color:#fff;
+   /*  color:#fff; */
 }
 
 .home h1{
     font-size:5rem;
-    color:#fff;
+    /* color:#fff; */
 }
 
 .home h1 span{
@@ -21,6 +21,12 @@
 
 .home p{
     font-size:2rem;
-    color:#fff;
+   /*  color:#fff; */
     padding: 1rem 0;
+}
+.typew{
+    display: flex;
+}
+.h11{
+    margin-left: 20px;
 }

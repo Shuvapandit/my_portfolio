@@ -1,14 +1,47 @@
 import React from 'react'
+import Typewriter from 'typewriter-effect';
+
 import './Home.css'
 
 
 function Home() {
   return (
 <div>
-<section class="home" id="home">
+<section className="home app" id="home">
+<h3>HI THERE !</h3>
+  <div className='typew'>
+    <div className=''>
+<h1> I'M</h1>
+    </div>
+    <div className='h11'>
+      <h1>
+      <span>
 
-    <h3>HI THERE !</h3>
-    <h1>I'M <span>Shuva Chakraborty</span></h1>
+      
+    <Typewriter
+  options={{
+    strings: ['shuva chakraborty...', 'A self learner...'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
+</span></h1>
+    </div>
+  </div>
+
+ 
+    {/* <h1>I'M <span>
+ 
+    <Typewriter
+  options={{
+    strings: ['shuva chakraborty...', 'A self learner...'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
+      
+      
+      </span> </h1> */}
     <p>
  A Front-end developer. I am doing a lot of work in this field.
 What I know and what I'm experienced- <br></br> 
@@ -18,7 +51,7 @@ What I know and what I'm experienced- <br></br>
 •Familiar with:Oracle,LaTeX.
     </p>
     
-    <a target="_blank"  href="https://drive.google.com/file/d/1uuwKBKD6-2rh0s7kCDAEAr17pcZZpDYy/view?usp=sharing" download=""><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+    <a target="_blank"  href="https://drive.google.com/file/d/1uuwKBKD6-2rh0s7kCDAEAr17pcZZpDYy/view?usp=sharing" download=""><button class="btn"> Download CV <i class="fas fa-download"></i> </button></a>
 
 </section>
 

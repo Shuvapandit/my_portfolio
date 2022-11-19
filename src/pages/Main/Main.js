@@ -5,10 +5,10 @@ import './Main.css'
 
 function Main() {
   return (
-    <div>
-  <header>
+    <div className='app'>
+  <header className='sidebar'>
 
-<div class="user">  
+<div class="user usr ">  
 <img src={img1}></img> 
 <h3 class="name">Shuva Chakraborty</h3>
 <p class="post">front end developer</p>
